@@ -1,0 +1,320 @@
+input.ng-dirty{
+   border-bottom: 1px solid yellow;
+}
+input.ng-invalid.ng-dirty{
+   border-bottom: 1px solid red;
+}
+input.ng-valid.ng-dirty{
+   border-bottom: 1px solid green;
+}
+input.ng-invalid-minlength.ng-dirty{
+   border-bottom: 1px solid blue;
+}
+input.ng-invalid-maxlength.ng-dirty{
+   border-bottom: 1px solid blue;
+}
+input.e-choice
+{
+       padding: 2%;
+    width: 45%;
+    background: #ee3434;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.featured1
+{
+    min-height: 400px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.circle{
+    width: 180px;
+    height: 180px;
+    border: 10px inset rgb(133,224,242);
+    display: block;
+    margin-left: 100px;
+    margin-top:100px;
+    border-radius: 200px;
+    -moz-animation: rotate 5s infinitelinear;
+    -webkit-animation: rotate 5s infinite linear;
+    animation: rotate 5s infinite linear;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.circle-small{
+    width: 150px;
+    height: 150px;
+    border: 6px outset rgb(133,224,242);
+    display: block;
+    margin-left: 115px;
+    margin-top: -165px;
+    border-radius: 156px;
+    -moz-animation: rotate-rev 3s infinite linear;
+    -webkit-animation: rotate-rev 3s infinite linear;
+    animation: rotate-rev 3s infinite linear;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.bubble {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(133,224,242);
+    display: block;
+    margin-left: 150px;
+    margin-top: -115px;
+    border-radius: 80px;
+    -moz-animation: buble 1.5s infinite ease-in;
+    -webkit-animation: bubble 1.5s infinite ease-in;
+    animation: bubble 1.5s infinite ease-in;
+    opacity: 1;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+/*==============ROTATE=====================*/
+
+
+
+@-moz-keyframes rotate{
+
+0%{-moz-transform:rotate(0deg);}
+
+100%{-moz-transform:rotate(360deg);}
+
+}
+@-webkit-keyframes rotate{
+
+0%{-webkit-transform:rotate(0deg);}
+
+100%{-webkit-transform:rotate(360deg);}
+
+}
+
+@-keyframes rotate{
+
+0%{transform:rotate(0deg);}
+
+100%{transform:rotate(360deg);}
+
+
+}
+
+@-moz-keyframes rotate-rev{
+
+0%{-moz-transform:rotate(0deg);}
+
+100%{-moz-transform:rotate(-360deg);}
+
+}
+@-webkit-keyframes rotate-rev{
+
+0%{-webkit-transform:rotate(0deg);}
+
+100%{-webkit-transform:rotate(-360deg);}
+
+}
+
+@-keyframes rotate-rev{
+
+0%{transform:rotate(0deg);}
+
+100%{transform:rotate(-360deg);}
+
+
+}
+/***********************bubble***************************/
+@-moz-keyframes bubble{
+
+0%{-moz-transform:scale(.1);opacity: 0.1}
+
+30%{-moz-transform:scale(1);opacity: 0.8}
+
+100%{-moz-transform:scale(.1);opacity: 0.1}
+
+
+
+}
+
+@-webkit-keyframes bubble{
+    0%{-webkit-transform:scale(0.1);opacity: 0.1}
+
+30%{-webkit-transform:scale(1);opacity: 0.8}
+
+100%{-webkit-transform:scale(0.1);opacity: 0.1}
+
+}
+@-keyframes bubble{
+0%{transform:scale(.1);opacity: 0.1}
+
+30%{transform:scale(1);opacity: 0.8}
+
+100%{transform:scale(.1);opacity: 0.1}
+
+}
+/*****************************Square*************************/
+.square1,.square2,.square3
+{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #ee3434;
+    margin-top:100px;
+    margin-left:10px;
+    float: left;
+    display: inline-block;  
+
+}
+.square1
+{
+    -webkit-animation:squarea 1.5s infinite linear;
+    -moz-animation:squarea 1.5s infinite linear;
+    animation:squarea 1.5s infinite linear;
+}
+.square2
+{
+    -webkit-animation:squareb 2.5s infinite linear;
+    -moz-animation:squareb 2.5s infinite linear;
+    animation:squareb 2.5s infinite linear;
+}
+.square3
+{
+    -webkit-animation:squarec 3.5s infinite linear;
+    -moz-animation:squarec 3.5s infinite linear;
+    animation:squarec 3.5s infinite linear;
+}
+/*animations for square1*/
+@-moz-keyframes squarea{
+
+0%{-moz-transform:scale(.1);opacity: 0.1}
+
+30%{-moz-transform:scale(1);opacity: 0.8}
+
+100%{-moz-transform:scale(.1);opacity: 0.1}
+
+
+
+}
+
+@-webkit-keyframes squarea{
+    0%{-webkit-transform:scale(0.1);opacity: 0.1}
+
+30%{-webkit-transform:scale(1);opacity: 0.8}
+
+100%{-webkit-transform:scale(0.1);opacity: 0.1}
+
+}
+@-keyframes squarea{
+0%{transform:scale(.1);opacity: 0.1}
+
+30%{transform:scale(1);opacity: 0.8}
+
+100%{transform:scale(.1);opacity: 0.1}
+
+}
+
+
+/*animations for square1*/
+@-moz-keyframes squareb{
+
+0%{-moz-transform:scale(.1);opacity: 0.1}
+
+30%{-moz-transform:scale(1);opacity: 0.8}
+
+100%{-moz-transform:scale(.1);opacity: 0.1}
+
+
+
+}
+
+@-webkit-keyframes squareb{
+    0%{-webkit-transform:scale(0.1);opacity: 0.1}
+
+30%{-webkit-transform:scale(1);opacity: 0.8}
+
+100%{-webkit-transform:scale(0.1);opacity: 0.1}
+
+}
+@-keyframes squareb{
+0%{transform:scale(.1);opacity: 0.1}
+
+30%{transform:scale(1);opacity: 0.8}
+
+100%{transform:scale(.1);opacity: 0.1}
+
+}
+
+/*animations for square1*/
+@-moz-keyframes squarec{
+
+0%{-moz-transform:scale(.1);opacity: 0.1}
+
+30%{-moz-transform:scale(1);opacity: 0.8}
+
+100%{-moz-transform:scale(.1);opacity: 0.1}
+
+
+
+}
+
+@-webkit-keyframes squarec{
+    0%{-webkit-transform:scale(0.1);opacity: 0.1}
+
+30%{-webkit-transform:scale(1);opacity: 0.8}
+
+100%{-webkit-transform:scale(0.1);opacity: 0.1}
+
+}
+@-keyframes squarec{
+0%{transform:scale(.1);opacity: 0.1}
+
+30%{transform:scale(1);opacity: 0.8}
+
+100%{transform:scale(.1);opacity: 0.1}
+
+}
+
+/*progess-bar*/
+.progress-bar
+{
+    -webkit-animation:once 1.5s infinite linear;
+    -moz-animation:once 1.5s infinite linear;
+    animation:once 1.5s infinite linear;
+}
+
+/*animations for once*/
+@-moz-keyframes once{
+
+0%{width: 0%;}
+
+30%{width: 30%;}
+
+100%{width: 100%;}
+
+
+
+}
+
+@-webkit-keyframes once{
+ 
+0%{width: 0%;}
+
+30%{width: 30%;}
+
+100%{width: 100%;}
+
+}
+@-keyframes once{
+
+0%{width: 0%;}
+
+30%{width: 30%;}
+
+100%{width: 100%;}
+
+}
+/**UI KIT**/

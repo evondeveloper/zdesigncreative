@@ -1,0 +1,55 @@
+/*--------------------MOBILE FIRST----------------------*/
+@media only screen and (min-width: 320px) {
+  p.normal{width: 100%;}
+  #Container .mix {width: 100%; }
+  div.more-infor-me{width: 100%}
+  div.line-foot{width:25%;}
+  div.line-foot2{width:15%;}
+    .featured1 i.fa
+{
+      float: right;
+    margin-top: -9% !important;
+}
+}
+@media only screen and (min-width: 480px) {
+   div.more-infor-me{width: 80%}
+   #Container .mix {width: 48%; }
+   div.line-foot{width:15%;}
+  div.line-foot2{width:5%;}
+}
+@media only screen and (min-width: 600px) {
+   #Container .mix {width: 48%; }
+    
+   
+}
+
+@media only screen and (min-width: 768px) {
+ #Container .mix {width: 33%; }
+	div.more-infor-me{width: 45%}
+	div.line-foot{width:10%;}
+  div.line-foot2{width:5%;}
+}
+
+@media only screen and (min-width: 992px) {
+	p.normal{width: 60%;}
+	div.more-infor-me{width: 25%}
+	.featured1 i.fa
+{
+      float: right;
+    margin-top: -15% !important;
+}
+	
+ 
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+/*  1382px breakpoint  */
+@media only screen and (min-width: 86em) {
+   }
+
+/*  high pixel ratio  */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+   }
